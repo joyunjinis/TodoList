@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹 페이지</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 헤더 -->
+      <div>
+        <h3>오늘은 📆</h3>
+        <h1 id="date"></h1>
+      </div>
+      <!-- 에디터-->
+      <div class="editor">
+        <input type="new todo" placeholder="새로운 Todo" id="newTodo" />
+        <button id="addButton">추가</button>
+      </div>
+      <!-- 리스트 -->
+      <div class="list">
+        <h4 class="list-title">Todo List🍀</h4>
+        <div id="mockData"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
