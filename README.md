@@ -1,14 +1,83 @@
-# React + Vite
+# 미니 프로젝트 - Todo List 
+### 인프런 - 한입 크기로 잘라먹는 React(React.js) 강의 프로젝트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 📌 간략한 소개
+- 기초 React 개념 및 Hook을 이용한 간단 프로젝트
+- 기능: 현재 날짜 출력, 검색, 추가, 삭제 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+
+---
+
+
+## 📅 개발 기간
+- 25/03/23 ~ 25/04/20
+
+
+---
+
+
+## 👨‍💻 주차별 업무
+1주차
+- 개발환경 구축 및 현업을 경험하기 위한 기본 지식 학습
+- 과제명
+  1) github 환경 구축 및 IDE 툴 설치
+  2) 간단 자기소개서 프로젝트 구현(추가적으로 이후에 업데이트 할 예정) 후 Repository에 올리기
+
+2주차
+- 웹사이트 화면 구성
+- 과제명
+  1) 지뢰찾기 게임 시작 화면, 자판기, 계산기 중 하나를 골라서 웹 화면 구성
+  2) 계산기 화면 구성으로 정하고 구현한 파일을 Github에 올리기
+
+3주차
+- 사용자와 커뮤니케이션 할 수 있는 웹 페이지
+- 과제명
+  1) 실제 이벤트가 있는 웹페이지 구현
+  2) 간단 산술 연산을 할 수 있는 계산기 구현
+  3) 모두 구현한 파일을 Github에 올리기
+  4) QA 문서 작성
+
+4주차
+- 신입사원 프로젝트
+- 과제명
+  1) Todo List 구현
+  2) 회원가입 기능 간단 구현
+  3) QA 문서 작성
+
+---
+
+
+## 🛠️ 사용 기술
+- HTML, CSS, Javascript
+
+
+---
+---
+
+
+## 📂 프로젝트 구조
+```
+📂 Comento_Project/
+├── 📂 Introduce/             # 1주차 과제
+├── 📂 Calculating_machine/   # 2주차, 3주차 과제 통합
+├── 📂 Alarm_clock/           # 3주차 과제
+├── 📂 Signup/                # 4주차 과제
+├── 📂 Todo_List              # 4주차 과제
+
+```
+
+
+---
+
+
+## 📷 수료증 사진
+![Image](https://github.com/user-attachments/assets/4d412687-f4d1-4ec9-8f5c-0dd011df2532)
 
 웹 배포 링크: https://mellifluous-mochi-055ae4.netlify.app/
